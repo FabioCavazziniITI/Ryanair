@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ryanair
+        </title>
+        <link rel="icon" href="../img/logo/Ryanair_Logo.png">
+        <link rel="stylesheet" type="text/css" href="../css/css.css" media="all">
+        <script language="JavaScript" src="../JavaScript/JavaScript.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <!--LOGO-->
+          <div class="logo">
+            <a href="index.html">
+              <img src="../img/logo/Logo_Ryanair.png" alt="logo" class="img_logo">
+            </a>
+          </div>
+
+          <!--MENU-->
+          <div class="nav">
+            <ul>
+              <li>
+                <a href="" class="np">
+                  Pianifica &#9661
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ryanair.com/it/it/lp/check-in" target="_blank">
+                  Le mie prenotazioni
+                </a>
+              </li>
+              <li>
+                <a href="" class="np">
+                  Iscriviti
+                </a>
+                <li>
+                  <a href="" class="np">
+                    Accedi
+                  </a>
+                </li>
+              </li>
+              <li>
+                <a href="https://www.ryanair.com/it/it/lp/help" target="_blank">
+                  Aiuto
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--LINEA-->
+        <div class="linea"></div>
+
+        <!--IMMAGINI DA SCORRERE-->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="../img/scroll/foto1.jpg" class="img_scroll">
+          </div>
+        
+          <div class="mySlides fade">
+            <img src="../img/scroll/foto2.jpg" class="img_scroll">
+          </div>
+        
+          <div class="mySlides fade">
+            <img src="../img/scroll/foto3.jpg" class="img_scroll">
+          </div>
+        
+          <div class="mySlides fade">
+            <img src="../img/scroll/foto4.jpg" class="img_scroll">
+          </div>
+        
+          <div class="mySlides fade">
+            <img src="../img/scroll/foto5.jpg" class="img_scroll">
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+        <!--SCELTA VIAGGIO-->
+        <div class="title">
+          <p>
+            I nostri viaggi
+          </p>
+        </div>
+        <form>
+          <div class="viaggio">
+            <!--DUBAI-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/1_dubai.jpg" alt="Dubai" class="foto_cards">
+              </div>
+              <div class="text_card">
+                Dubai
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città dell'opulenza, dell'architettura
+                  <br>
+                  spettacolare e dello stile di vita lussuoso.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                    277,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+
+            <!--New York-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/2_NewYork.jpg" alt="NewYork" class="foto_cards">
+              </div>
+              <div class="text_card">
+                New York
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città della diversità culturale, dell'iconica
+                  <br>
+                  architettura e dell'incessante frenesia urbana.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                    480,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+
+            <!--Londra-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/3._Londra.jpg" alt="Londra" class="foto_cards">
+              </div>
+              <div class="text_card">
+                Londra
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città della storia ricca, della
+                  <br>
+                  cultura vibrante e dell'eleganza cosmopolita.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                    138,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+
+            <!--Parigi-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/4._Parigi.jpg" alt="Parigi" class="foto_cards">
+              </div>
+              <div class="text_card">
+                Parigi
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città della romantica bellezza,
+                  <br>
+                  dell'arte iconica e della raffinata gastronomia.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                    143,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+
+            <!--Milano-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/5._Milano.jpg" alt="Milano" class="foto_cards">
+              </div>
+              <div class="text_card">
+                Milano
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città della moda, del
+                  <br>
+                  design e dell'eleganza italiana.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                    61,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+
+            <!--Venezia-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/6._Venezia.jpg" alt="Venezia" class="foto_cards">
+              </div>
+              <div class="text_card">
+                Venezia
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città dei canali incantevoli, dell'arte
+                  <br>
+                  rinascimentale e del romanticismo senza tempo.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                    211,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+
+            <!--Firenze-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/7._Firenze.jpg" alt="Firenze" class="foto_cards">
+              </div>
+              <div class="text_card">
+                Firenze
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città dell'arte rinascimentale, con capolavori
+                  <br>
+                  artistici, architettonici e storici senza pari.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                    36,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+
+            <!--Roma-->
+            <div class="card">
+              <div class="foto_card">
+                <img src="../img/cards/8._Roma.jpg" alt="Roma" class="foto_cards">
+              </div>
+              <div class="text_card">
+                Roma
+              </div>
+              <div class="text_dest">
+                <p>
+                  La città dell'antica storia, dell'arte
+                  <br>
+                  rinascimentale e del fascino senza tempo.
+                </p>
+              </div>
+              <div class="basso">
+                <div class="prezzo">
+                  <div class="sotto_prezzo">
+                  53,00 &#8364;
+                  </div>
+                </div>
+                <div class="scelta">
+                  <b>
+                    Scegli questa destinazione
+                  </b>
+                  <br>
+                  <input class="opz" type="radio" name="scelta" id="scelta" value="1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="invio">
+            <div class="invio_img">
+              <img src="../img/ultima.jpg">
+            </div>
+            <div class="sez_invio">
+              <p>
+                <b>
+                  Inserire il numero di partecipanti al viaggio
+                </b>
+                <br>
+                <c>
+                  minimo 1 - massimo 10
+                </c>
+              </p>
+              <br>
+              <input class="number" type="number" id="number" value="" min="1" max="10" required><b class="aste"> *</b>
+              <br>
+              <input class="submit" type="submit" value="Richiedi biglietti" onclick="richiedi()">
+            </div>
+          </div>
+        </form>
+
+        <div class="biglietti">
+          <div class="compila_bigletti">
+          </div>
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+          <div class="footer_div">
+            <a href="http://www.iiscopernico.edu.it/" target="_blank">
+              <img class="img_footer" src="../img/Stemma_ITI.png" alt="Logo ITI cliccabile">
+            </a>
+            <br>
+            <I>
+              <a href="http://www.iiscopernico.edu.it/" target="_blank">
+                  IIS "N.Copernico - Carpeggiani"
+              </a>
+            </I>
+          </div>
+          <div class="footer_div">
+            &#0169 Cavazzini Fabio
+            </br></br>
+            <a href="mailto:fabio.cavazzini@iticopernico.it">
+                fabio.cavazzini@iticopernico.it
+            </a>
+            </br></br>
+            Classe IV G
+            </br></br>
+            A.S. 2023 - 2024
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
