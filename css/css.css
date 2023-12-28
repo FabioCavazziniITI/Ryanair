@@ -175,16 +175,11 @@
   transition: 0.5s;
 }
 
-.foto_cards {
-  filter: grayscale(100%);
-}
-
 .card:hover {
   transform: scale(1.03);
 
   .foto_cards {
     transform: translate(0px,-10px);
-    filter: grayscale(0%);
   }
 }
 
