@@ -294,10 +294,10 @@
   font-size: 15pt;
 }
 
-.submit {
+.submit, .submit2 {
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 250px;
+  width: 200px;
   height: 40px;
   font-size: 14pt;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -309,28 +309,19 @@
   transition: 0.5s;
 }
 
-.submit:hover {
+.submit:hover, .submit2:hover {
   background-color:#f0cb10c7;
 }
 
-/* BIGLIETTI */
-.biglietti {
+.submit2 {
+  margin-left: 50px;
+}
+
+#tickets {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 30px;
-  flex-wrap: wrap;
-}
-
-.compila_biglietti {
-  width: 80%;
-  height: auto;
-  text-align: center;
-  background-color:#2047bc;
-  color: white;
-  margin-top: 20px;
-  border-radius: 20px;
-  box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.8);
+  margin-top: 35px;
 }
 
 /* FOOTER */
