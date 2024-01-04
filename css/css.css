@@ -317,11 +317,30 @@
   margin-left: 50px;
 }
 
+/* ZONA BIGLIETTI */
 #tickets {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-around;
-  margin-top: 35px;
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #000000;
+}
+
+#p_tickets {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18pt;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nome, .cognome, .eta {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.cognome, .eta{
+  margin-left: 10px;
 }
 
 /* FOOTER */
