@@ -329,18 +329,18 @@
 
 #p_tickets {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
   font-size: 18pt;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 14pt;
 }
 
-.nome, .cognome, .eta {
+.nome, .cognome, .documento, .nDoc {
   height: 30px;
-  margin-top: 5px;
-}
-
-.cognome, .eta{
+  width: 15%;
+  margin-top: 20px;
   margin-left: 10px;
+  text-indent: 5px;
 }
 
 /* FOOTER */

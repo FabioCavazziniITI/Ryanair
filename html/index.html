@@ -35,11 +35,11 @@
                 <a href="" class="np">
                   Iscriviti
                 </a>
-                <li>
-                  <a href="" class="np">
-                    Accedi
-                  </a>
-                </li>
+              </li>
+              <li>
+                <a href="" class="np">
+                  Accedi
+                </a>
               </li>
               <li>
                 <a href="https://www.ryanair.com/it/it/lp/help" target="_blank">
@@ -125,7 +125,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="1" required>
+                  <input class="opz" type="radio" name="sc" id="sc1" value="1" required>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="2">
+                  <input class="opz" type="radio" name="sc" id="sc2" value="2" required>
                 </div>
               </div>
             </div>
@@ -187,7 +187,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="3">
+                  <input class="opz" type="radio" name="sc" id="sc3" value="3" required>
                 </div>
               </div>
             </div>
@@ -218,7 +218,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="4">
+                  <input class="opz" type="radio" name="sc" id="sc4" value="4" required>
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="5">
+                  <input class="opz" type="radio" name="sc" id="sc5" value="5" required>
                 </div>
               </div>
             </div>
@@ -280,7 +280,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="6">
+                  <input class="opz" type="radio" name="sc" id="sc6" value="6" required>
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="7">
+                  <input class="opz" type="radio" name="sc" id="sc7" value="7" required>
                 </div>
               </div>
             </div>
@@ -342,7 +342,7 @@
                     Scegli questa destinazione
                   </b>
                   <br>
-                  <input class="opz" type="radio" name="scelta" id="scelta" value="8">
+                  <input class="opz" type="radio" name="sc" id="sc8" value="8" required>
                 </div>
               </div>
             </div>
@@ -358,14 +358,14 @@
                 </b>
                 <br>
                 <c>
-                  minimo 1 - massimo 10
+                  minimo 1 - massimo 50
                 </c>
               </p>
               <br>
-              <input class="number" type="number" id="number" value="" min="1" max="10" required>
+              <input class="number" type="number" id="number" value="" min="1" max="50" required>
               <br>
-              <button class="submit" onclick="Richiedi()">Richiedi biglietti</button>
-              <button class="submit2" onclick="Ordine()">Conferma ordine</button>
+              <button class="submit" type="button" onclick="Richiedi()">Richiedi biglietti</button>
+              <button class="submit2" type="button" onclick="Ordine()">Conferma ordine</button>
             </div>
           </div>
 
