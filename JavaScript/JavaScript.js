@@ -106,7 +106,12 @@ function campiBiglietto(number) {
   var s2 = document.createElement("OPTION");
   var d2 = document.createTextNode("Passaporto");
   s2.appendChild(d2);
-  documento.appendChild(s2);
+
+  documento.appendChild(s3);
+  var s2 = document.createElement("OPTION");
+  var d2 = document.createTextNode("Patente");
+  s3.appendChild(d3);
+  documento.appendChild(s3);
 
   //creazione input per età
   var nDoc = document.createElement("input");
