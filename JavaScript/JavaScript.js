@@ -13,6 +13,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
@@ -106,12 +107,7 @@ function campiBiglietto(number) {
   var s2 = document.createElement("OPTION");
   var d2 = document.createTextNode("Passaporto");
   s2.appendChild(d2);
-
-  documento.appendChild(s3);
-  var s3 = document.createElement("OPTION");
-  var d3 = document.createTextNode("Patente");
-  s3.appendChild(d3);
-  documento.appendChild(s3);
+  documento.appendChild(s2);
 
   //creazione input per età
   var nDoc = document.createElement("input");
@@ -219,7 +215,7 @@ function Ordine() {
       scontrino += "A: " + destinazione + "\n";
       scontrino += "N° biglietti richiesti: " + nBiglietti + "\n";
       scontrino += "\n";
-      scontrino += "----------BIGLIETTI----------\n";
+      scontrino += "---------------BIGLIETTI----------------\n";
         
       for (var i = 0; i < nBiglietti; i++) 
       {
@@ -234,11 +230,10 @@ function Ordine() {
         scontrino += "Documento: " + documento + "\n";
         scontrino += "Numero documento: " + nDoc + "\n";
         scontrino += "Posto numero: " + lPosto + nPosto + "\n";
-        scontrino += "--------------------------------------\n";
+        scontrino += "\n----------------------------------------\n\n";
 
         nPosto++;
       }
-  
       scontrino += "Prezzo singolo biglietto: " + prezzo + " €\n";
       scontrino += "Prezzo per " + nBiglietti + " persone: " + prezzoTot + " €";
   
