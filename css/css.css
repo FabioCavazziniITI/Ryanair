@@ -73,6 +73,12 @@
 }
 
 /* SCROLL IMMAGINI */
+.immagii_scroll {
+  width: 100%;
+  height: 750px;
+  display: block;
+}
+
 * {box-sizing:border-box}
 
 .slideshow-container {
