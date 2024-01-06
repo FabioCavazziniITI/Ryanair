@@ -108,8 +108,8 @@ function campiBiglietto(number) {
   s2.appendChild(d2);
 
   documento.appendChild(s3);
-  var s2 = document.createElement("OPTION");
-  var d2 = document.createTextNode("Patente");
+  var s3 = document.createElement("OPTION");
+  var d3 = document.createTextNode("Patente");
   s3.appendChild(d3);
   documento.appendChild(s3);
 
