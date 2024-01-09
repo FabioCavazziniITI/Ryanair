@@ -88,10 +88,6 @@
   display: none;
 }
 
-.slide1 {
-  display: block;
-}
-
 .prev, .next {
   cursor: pointer;
   position: absolute;
