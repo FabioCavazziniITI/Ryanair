@@ -212,7 +212,7 @@ function Ordine() {
       
       scontrino = "Volo richiesto:\n";
       scontrino += "Da: BOLOGNA\n";
-      scontrino += "A: " + destinazione + "\n";
+      scontrino = "A: " + destinazione + "\n";
       scontrino += "N° biglietti richiesti: " + nBiglietti + "\n";
       scontrino += "\n";
       scontrino += "---------------BIGLIETTI----------------\n";
